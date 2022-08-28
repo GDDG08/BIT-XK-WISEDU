@@ -4,7 +4,7 @@ from email.mime.text import MIMEText
 from email.header import Header
 from win10toast import ToastNotifier
 
-from userconfig import *
+from .userconfig import *
 
 
 def notifyThrouthWeCom(id, msg):
